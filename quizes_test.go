@@ -6,7 +6,7 @@ import (
 
 func Test_getQuizes(t *testing.T) {
 	got := getQuizes("quizes.csv")
-	want := 13
+	want := 12
 	if len(got) != want {
 		t.Errorf("got %v but want %v", len(got), want)
 	}
